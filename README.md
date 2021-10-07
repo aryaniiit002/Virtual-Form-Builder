@@ -2,13 +2,16 @@
 
 ## Introduction
 #### A ReactJS Application for Drag and Drop Form Builder.            
-
-
+<br>
+<details open>
+<summary>ScreenShots</summary>
+<br>
 <img src="https://raw.githubusercontent.com/aryaniiit002/Virtual-Form-Builder/main/vfb/public/ReadmeIMG1.png">
-<Br />
+<br>
 <img src="https://raw.githubusercontent.com/aryaniiit002/Virtual-Form-Builder/main/vfb/public/ReadmeIMG2.png">
+</details>
 
-<Br />
+<br>
 
 ##  How to install
 Ensure you have NPM installed in your system.
