@@ -4,9 +4,9 @@
 #### A ReactJS Application for Drag and Drop Form Builder.            
 
 
-<img src="https://raw.githubusercontent.com/aryaniiit002/Virtual-Form-Builder/main/vfb/public/ReadmeIMG1.png" width="500" height="500">
+<img src="https://raw.githubusercontent.com/aryaniiit002/Virtual-Form-Builder/main/vfb/public/ReadmeIMG1.png">
 <Br />
-<img src="https://raw.githubusercontent.com/aryaniiit002/Virtual-Form-Builder/main/vfb/public/ReadmeIMG2.png" width="500" height="500">
+<img src="https://raw.githubusercontent.com/aryaniiit002/Virtual-Form-Builder/main/vfb/public/ReadmeIMG2.png">
 
 <Br />
 
