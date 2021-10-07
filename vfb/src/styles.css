@@ -1,0 +1,91 @@
+.background {
+    background-image: url(assets/img1.jpg);
+    background-position: bottom;
+    color: white !important;
+}
+
+.home-down {
+    width: 100%;
+    margin: 33px;
+    background-color: rgb(240, 238, 238);
+    font-size: 17px;
+}
+
+.home-button {
+    margin-top: 10px;
+    margin-right: 35px;
+    background-color: #2196F3;
+}
+
+.main {
+    background-color: #dfeefa;
+}
+
+.header {
+    font-size: 27px;
+    line-height: 50px;
+    margin-left: 5px;
+    color: #343434;
+    letter-spacing: 1px;
+    text-shadow: 0 2px white, 0 3px #777;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: 1px solid rgba(53, 86, 129, 0.3);
+    width: 470px;
+    box-shadow: inset 0 0 0 1px rgba(53, 86, 129, 0.4), inset 0 0 5px rgba(53, 86, 129, 0.5), inset -285px 0 35px rgb(174, 181, 243);
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+    margin-top: 17px;
+}
+
+.formname {
+    width: 51vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* TWO */
+
+.custom-field.two input {
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(90deg, #222, #222) center bottom/0 0.15em no-repeat, linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat, linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+}
+
+.custom-field.two input.dirty,
+.custom-field.two input:not(:placeholder-shown),
+.custom-field.two input:focus {
+    background-size: 100% 0.15em, 100% 0.1em, 100%;
+}
+
+.backbtn {
+    padding: 10px;
+    margin-left: 50px;
+    border: 2px solid rgba(3, 15, 85, 0.322);
+    border-radius: 28px;
+    color: rgba(9, 10, 66, 0.616);
+    font-weight: 300;
+}
+
+.backbtn:hover {
+    background-color: rgba(17, 2, 2, 0.25);
+    color: rgba(8, 2, 2, 0.75);
+    border-radius: 20px;
+}
+
+.update_theme {
+    display: flex;
+}
