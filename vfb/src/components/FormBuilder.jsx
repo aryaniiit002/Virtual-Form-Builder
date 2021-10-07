@@ -63,7 +63,7 @@ const FormBuilder = () => {
     return (
         <div className="main">
             <div>
-                <h1 className="header" style={{ marginTop: '17px' }}>Dubdub.ai - Virtual Form Builder</h1>
+                <h1 className="header" style={{ marginTop: '20px' }}>Dubdub.ai - Virtual Form Builder</h1>
             </div>
             <div className="formname">
                 <label class="custom-field two">

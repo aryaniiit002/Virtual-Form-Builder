@@ -41,7 +41,6 @@ const FormGenerators = () => {
                 <GeneratedForm
                     formData={form.data}
                     onSubmit={data => { onSubmitHandler(data) }}
-                // responseData={form.data}
                 />
             </>)
             }

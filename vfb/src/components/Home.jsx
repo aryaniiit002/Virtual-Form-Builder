@@ -18,7 +18,6 @@ function Home() {
     // Retrieve Forms
     const retrieveForms = async () => {
         const response = await api.get("/forms");
-        // console.log(response.data);
         return response.data;
     }
 
@@ -58,8 +57,10 @@ function Home() {
         <div>
             <div className="jumbotron background">
                 <div className="container">
-                    <h1>CREATE YOUR OWN FORMS</h1>
-                    <p>
+                    <div class="home__header">
+                        <a href className="hh_a">CREATE YOUR OWN FORMS!</a>
+                    </div>
+                    <p style={{ marginTop: "60px", fontSize: "18px", letterSpacing: ".8px" }}>
                         This is the <strong style={{ cursor: "pointer" }} onClick={() => window.open("https://www.dubdub.ai/", "_blank")}>Dubdub.ai</strong> virtual form builder, a tool to help
                         you create forms easily.
                     </p>
@@ -73,9 +74,9 @@ function Home() {
                             search={caseSensitiveSearch}
                             onChange={handleChange}
                             selection
-                            style={{ fontSize: "16px", top: "5px", width: "290px" }}
+                            style={{ fontSize: "16px", top: "5px", width: "290px", backgroundColor: "#007bff", color: "#ffffff" }}
                         />
-                        {/* {console.log(dropdownValue)} */}
+
                         {dropdownValue && (
                             <Link to={`/formgenerator/${dropdownValue}`}>
                                 <Button style={{ marginLeft: "10px" }}>Next</Button>
